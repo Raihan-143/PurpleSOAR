@@ -1,0 +1,177 @@
+[
+    {
+        "target_ip": "183.222.230.188",
+        "risk_score": 100,
+        "decision": "AUTO_CONTAINMENT",
+        "containment_status": "CONTAINED",
+        "purple_loop_verification": "VERIFIED_ISOLATED",
+        "mitre_mapping": [
+            {
+                "id": "T1110",
+                "name": "Brute Force",
+                "tactic": "Credential Access"
+            },
+            {
+                "id": "T1046",
+                "name": "Network Service Discovery",
+                "tactic": "Discovery"
+            },
+            {
+                "id": "T1071.001",
+                "name": "Web Protocols C2",
+                "tactic": "Command & Control"
+            }
+        ],
+        "timestamp": "2026-10-13T04:26:17.912380Z"
+    },
+    {
+        "target_ip": "exut",
+        "risk_score": 0,
+        "decision": "LOG_ONLY",
+        "containment_status": "NOT_TRIGGERED",
+        "purple_loop_verification": "N/A",
+        "mitre_mapping": [
+            {
+                "id": "N/A",
+                "name": "Benign Telemetry",
+                "tactic": "None"
+            }
+        ],
+        "timestamp": "2026-10-13T04:36:33.692158Z"
+    },
+    {
+        "target_ip": "118.25.6.39",
+        "risk_score": 7,
+        "decision": "LOG_ONLY",
+        "containment_status": "NOT_TRIGGERED",
+        "purple_loop_verification": "N/A",
+        "mitre_mapping": [
+            {
+                "id": "N/A",
+                "name": "Benign Telemetry",
+                "tactic": "None"
+            }
+        ],
+        "timestamp": "2026-10-13T04:38:24.578838Z"
+    },
+    {
+        "target_ip": "183.222.230.188",
+        "risk_score": 100,
+        "decision": "AUTO_CONTAINMENT",
+        "containment_status": "FAILED",
+        "purple_loop_verification": "N/A",
+        "mitre_mapping": [
+            {
+                "id": "T1110",
+                "name": "Brute Force",
+                "tactic": "Credential Access"
+            },
+            {
+                "id": "T1046",
+                "name": "Network Service Discovery",
+                "tactic": "Discovery"
+            },
+            {
+                "id": "T1071.001",
+                "name": "Web Protocols C2",
+                "tactic": "Command & Control"
+            }
+        ],
+        "timestamp": "2026-10-13T04:38:45.885155Z"
+    },
+    {
+        "target_ip": "netsh advfirewall firewall show rule",
+        "risk_score": 0,
+        "decision": "LOG_ONLY",
+        "containment_status": "NOT_TRIGGERED",
+        "purple_loop_verification": "N/A",
+        "mitre_mapping": [
+            {
+                "id": "N/A",
+                "name": "Benign Telemetry",
+                "tactic": "None"
+            }
+        ],
+        "timestamp": "2026-10-13T04:39:18.343349Z"
+    },
+    {
+        "target_ip": "118.25.6.39",
+        "risk_score": 7,
+        "decision": "LOG_ONLY",
+        "containment_status": "NOT_TRIGGERED",
+        "purple_loop_verification": "N/A",
+        "mitre_mapping": [
+            {
+                "id": "N/A",
+                "name": "Benign Telemetry",
+                "tactic": "None"
+            }
+        ],
+        "timestamp": "2026-10-13T04:43:08.867326Z"
+    },
+    {
+        "target_ip": "183.222.230.188",
+        "risk_score": 100,
+        "decision": "AUTO_CONTAINMENT",
+        "containment_status": "CONTAINED",
+        "purple_loop_verification": "VERIFIED_ISOLATED",
+        "mitre_mapping": [
+            {
+                "id": "T1110",
+                "name": "Brute Force",
+                "tactic": "Credential Access"
+            },
+            {
+                "id": "T1046",
+                "name": "Network Service Discovery",
+                "tactic": "Discovery"
+            },
+            {
+                "id": "T1071.001",
+                "name": "Web Protocols C2",
+                "tactic": "Command & Control"
+            }
+        ],
+        "timestamp": "2026-10-13T04:43:26.848511Z"
+    },
+    {
+        "target_ip": "118.25.6.39",
+        "risk_score": 7,
+        "decision": "LOG_ONLY",
+        "containment_status": "NOT_TRIGGERED",
+        "purple_loop_verification": "N/A",
+        "mitre_mapping": [
+            {
+                "id": "N/A",
+                "name": "Benign Telemetry",
+                "tactic": "None"
+            }
+        ],
+        "timestamp": "2026-10-13T05:12:40.722090Z"
+    },
+    {
+        "target_ip": "183.222.230.188",
+        "risk_score": 100,
+        "decision": "AUTO_CONTAINMENT",
+        "containment_status": "CONTAINED",
+        "purple_loop_verification": "VERIFIED_ISOLATED",
+        "mitre_mapping": [
+            {
+                "id": "T1110",
+                "name": "Brute Force",
+                "tactic": "Credential Access"
+            },
+            {
+                "id": "T1046",
+                "name": "Network Service Discovery",
+                "tactic": "Discovery"
+            },
+            {
+                "id": "T1071.001",
+                "name": "Web Protocols C2",
+                "tactic": "Command & Control"
+            }
+        ],
+        "timestamp": "2026-10-13T05:12:53.461310Z"
+    }
+]
